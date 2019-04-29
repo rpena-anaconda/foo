@@ -1,10 +1,17 @@
 import { NgModule } from '@angular/core';
 import { FooLibComponent } from './foo-lib.component';
+import { BarComponent } from './bar/bar.component';
 
 @NgModule({
-  declarations: [FooLibComponent],
+  declarations: [
+    FooLibComponent,
+    BarComponent
+  ],
   imports: [
   ],
-  exports: [FooLibComponent]
+  exports: [
+    FooLibComponent,
+    BarComponent
+  ]
 })
 export class FooLibModule { }
